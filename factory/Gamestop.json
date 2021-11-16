@@ -1,0 +1,9 @@
+{
+	"name": "Gamestop",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7d56cafc-7022-4311-b808-6ca1fcf6304a",
+		"tenantId": "54474fb3-6359-40c1-b726-5d56a7dd2976"
+	}
+}
