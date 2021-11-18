@@ -1,0 +1,62 @@
+{
+	"name": "Output",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Sales",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Rank",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Name",
+				"type": "varchar"
+			},
+			{
+				"name": "Platform",
+				"type": "varchar"
+			},
+			{
+				"name": "Year",
+				"type": "char"
+			},
+			{
+				"name": "Genre",
+				"type": "varchar"
+			},
+			{
+				"name": "Publisher",
+				"type": "varchar"
+			},
+			{
+				"name": "NA_Sales",
+				"type": "varchar"
+			},
+			{
+				"name": "EU_Sales",
+				"type": "varchar"
+			},
+			{
+				"name": "JP_Sales",
+				"type": "varchar"
+			},
+			{
+				"name": "Other_Sales",
+				"type": "varchar"
+			},
+			{
+				"name": "Global_Sales",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "sales"
+		}
+	}
+}
